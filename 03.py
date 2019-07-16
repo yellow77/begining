@@ -20,7 +20,7 @@ else:
 weight = int(input("your weight? "))
 unit = input("please keyin (L)bs or k(G)")
 if unit.upper() == "L":
-    converted = weight * 0.45py
+    converted = weight * 0.45
     print(f"your weight is {converted} Kilos")
 else unit.upper() == "K":
     converted = weight // 0.45
